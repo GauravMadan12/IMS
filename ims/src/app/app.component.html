@@ -1,39 +1,8 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<!-- <div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div> -->
- <!-- <div class = "jumbotron" style = "margin-bottom: 0px;" >
-  <h1>IMS</h1>
-  <p>asnjdhsadhasdksadasda</p>
-</div>
-<nav class = "navbar navbar-expand-md navbar-dark bg-dark sticky-top" >
-  <button class = "navbar-toggler" data-toggle = "collapse" data-target = "#collapse_target">
-    <span class = "navbar-toggler-icon"></span>
-  </button>
-
-  <div class = "collapse navbar-collapse " id = "collapse_target"> 
-   <a class = "navbar navbar-brand"><img src = ""></a> 
-  <span class = "navbar-text">IMS</span>
-  <ul class = "navbar-nav ml-auto">
-     <li class = "nav-item">
-       <a class = "nav-link" href= "#">Link 1</a>
-     </li>
-     <li class = "nav-item">
-      <a class = "nav-link" href= "#">Link 2</a>
-    </li>
-    <li class = "nav-item">
-      <a class = "nav-link" href= "#">Link 3</a>
-    </li>
-    <li class = "nav-item">
-      <a class = "nav-link" href= "#">Link 4</a>
-    </li>
-   </ul>
-  </div>
- </nav>  -->
-
+<html>
+ <head>
+   <title></title>
+ </head>
+<body> 
  <!-- Navigation -->
 <nav class = "navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <div class = "container-fluid">
@@ -44,125 +13,22 @@
     <div class = "collapse navbar-collapse" id = "navbarResponsive">
       <ul class = "navbar-nav ml-auto">
         <li class = "nav-item active">
-          <a class = "nav-link" href = "#">Home</a>
+          <a class = "nav-link" routerLink = "/dashboard">Dashboard</a>
         </li>
         <li class = "nav-item">
-          <a class = "nav-link" href = "#">About</a>
+          <a class = "nav-link" routerLink = "/login">Login</a>
         </li>
         <li class = "nav-item">
-          <a class = "nav-link" href = "#">Services</a>
+          <a class = "nav-link" routerLink = "/register">Register</a>
         </li>
         <li class = "nav-item">
-          <a class = "nav-link" href = "#">Team</a>
+          <a class = "nav-link" href = "#">Contact Us</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+</body>
+</html>
 
-<!-- Image Slider -->
-<div id = "slides" class = "carousel slide" data-ride = "carousel">
-  <ul class = "carousel-indicators">
-    <li data-target = "#slides" data-slide-to = "0" class = "active"></li>
-    <li data-target = "#slides" data-slide-to = "1"></li>
-    <li data-target = "#slides" data-slide-to = "2"></li>
-  </ul>
-</div>
-<div class = "carousel-inner">
-  <div class = "carousel-item active">
-    <img src = "https://images.pexels.com/photos/1162964/pexels-photo-1162964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-    <div class = "carousel-caption">
-      <p class="display-1">Bootstrap</p>
-      <h3>Complete website</h3>
-      <button type = "button" class = "btn btn-outline-light btn-lg">View Demo</button>
-      <button type="button" class = "btn btn-primary btn-lg">Get Started</button>
-    </div>
-  </div>
-  <div class = "carousel-item">
-    <img src = "https://images.pexels.com/photos/263532/pexels-photo-263532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-  </div>
-  <div class = "carousel-item">
-    <img src = "https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&h=350">
-  </div>
-</div>
-
-<!-- Jumbotron -->
-<div class = "container-fluid">
-  <div class = "row jumbotron">
-    <div class = "col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-      <p class = "lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minima est impedit nobis voluptatum quasi nesciunt laboriosam mollitia obcaecati cupiditate eius a, optio delectus sapiente ducimus nisi omnis eos accusantium vitae neque distinctio ipsum illum quisquam. Asperiores aut, laboriosam nemo expedita assumenda possimus magnam eaque doloribus cupiditate atque quod quisquam.</p>
-    </div>
-    <div class = "col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-      <a href="#"><button type = "button" class = "btn btn-outline-secondary btn-lg">Web Hosting</button></a>
-    </div>
-  </div>
-</div>
-
-<!-- Welcome section -->
-<div class = "container-fluid padding">
-  <div class = "row welcome text-center">
-    <div class = "col-12">
-      <p class = "display-4">Built with ease</p>
-    </div>
-    <hr>
-    <div class = "col-12">
-      <p class = "lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis, voluptates labore sunt, placeat delectus sint maiores non in reiciendis, doloremque neque facilis fugit doloribus.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Three column section -->
-<div class = "container-fluid padding">
-  <div class = "row text-center padding">
-    <div class = "col-xs-12 col-sm-6 col-md-4">
-      <i class = "fas fa-code"></i>
-      <h3>HTML5</h3>
-      <p>Build with the latest version of HTML, HTML5</p>
-    </div>
-    <div class = "col-xs-12 col-sm-6 col-md-4">
-        <i class = "fas fa-bold"></i>
-        <h3>BOOTSTRAP</h3>
-        <p>Build with the latest version of Bootstrap, Bootstrap4</p>
-    </div>
-    <div class = "col-sm-12 col-md-4">
-        <i class = "fab fa-css3"></i>
-        <h3>CSS3</h3>
-        <p>Build with the latest version of CSS, CSS3</p>
-    </div>
-  </div>
-  <hr class = "my-4">
-</div>
-
-<!-- Two column section -->
-<div class = "container-fluid padding">
-  <div class = "row padding">
-    <div class = "col-lg-6">
-      <h2>If You build it....</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, reprehenderit?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae recusandae laboriosam nulla incidunt hic vel.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores aspernatur velit?</p>
-    <br>
-    <a href = "#" class = "btn btn-primary">Learn More</a>
-    </div>
-  </div>
-  <div class = " col-sm-12 col-lg-6">
-    <img src = "https://images.pexels.com/photos/262572/pexels-photo-262572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class = "img-fluid"> 
-  </div>
-</div>
-
-<!-- Fixed background -->
-
-<!-- Emoji Section -->
-
-<!-- Meet the team -->
-
-<!-- Cards -->
-
-<!-- Two column section -->
-
-<!-- Connect -->
-
-<!-- Footer -->
-
-
-
+<router-outlet></router-outlet>
